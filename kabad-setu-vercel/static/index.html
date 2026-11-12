@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#173e32"><meta name="description" content="Kabad Setu connects waste collectors with recyclers. Turn your scrap into a fresh start."><title>Kabad Setu — Waste has a better destination.</title><link rel="stylesheet" href="/style.css"><script src="/i18n.js" defer></script><script src="/local-analysis.js" defer></script><script src="/app.js" defer></script></head>
+<body>
+<aside class="sidebar">
+<a class="brand" href="#home"><span class="brand-mark">♻</span><span>Kabad<span class="brand-light">Setu</span><small>कबाड़ सेतु</small></span></a>
+<div class="workspace-label">COLLECTOR WORKSPACE</div>
+<nav aria-label="Main navigation">
+<a href="#home" data-page="home"><span data-icon="grid"></span>Overview</a>
+<a href="#sell" data-page="sell"><span data-icon="scan"></span>Sell your e-waste<span class="nav-plus">+</span></a>
+<a href="#pickups" data-page="pickups"><span data-icon="truck"></span>My pickups</a>
+<a href="#recyclers" data-page="recyclers"><span data-icon="pin"></span>Find recyclers</a>
+<a href="#rates" data-page="rates"><span data-icon="chart"></span>E-waste rates</a>
+</nav>
+<div class="sidebar-bottom"><div class="planet-note"><span data-icon="leaf"></span><p>A little effort.<br>A greener tomorrow.</p><small>Every collection counts.</small></div><a class="recycler-link" href="#recycler"><span data-icon="building"></span>Recycler workspace <span>↗</span></a><button class="profile-button" id="profile-button"><span class="avatar">KS</span><span><strong id="profile-name">Welcome, collector</strong><small id="profile-status">Let’s get you started</small></span><span>⌄</span></button></div>
+</aside>
+<div class="app-shell"><header class="topbar"><div class="breadcrumb">Your waste. <span>A world of possibility.</span></div><div class="header-actions"><button class="text-link" id="demo-role-button" type="button">Switch role</button><button class="language-button" id="language-toggle" data-language-toggle data-i18n-skip>अ <span>हिन्दी</span></button><span class="header-divider"></span><button class="icon-button" id="notification-button" aria-label="View pickups"><span data-icon="bell"></span><span class="notification-dot" hidden></span></button><button class="avatar header-avatar" id="header-profile" aria-label="Open profile">KS</button></div></header><main id="main"></main><footer><span>Made for the people who keep our cities clean.</span><a href="#recycler">Recycler workspace ↗</a></footer></div>
+<audio id="guide-audio" preload="auto" src="/audio/welcome.wav"></audio>
+<dialog id="modal"><div id="modal-content"></div></dialog><div id="toast" role="status" aria-live="polite"></div>
+</body></html>
